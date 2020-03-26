@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 273200005}
   - component: {fileID: 273200004}
   - component: {fileID: 273200006}
+  - component: {fileID: 273200007}
   m_Layer: 0
   m_Name: First Person Player
   m_TagString: Untagged
@@ -363,6 +364,18 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &273200007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273200003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee99251ce60f2d4ca2dc2a590c78827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &303728396
 GameObject:
   m_ObjectHideFlags: 0
